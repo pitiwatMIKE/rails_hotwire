@@ -1,9 +1,10 @@
 # README
 
 ## rails s
+```bash
 ActionView::Template::Error (Error: File to import not found or unreadable: bootstrap/scss/bootstrap.
         on line 2:1 of app/assets/stylesheets/application.scss
->> @import "bootstrap/scss/bootstrap";
+>> @import "bootstrap/scss/bootstrap"; 
 
    ^
 ):
@@ -14,6 +15,7 @@ ActionView::Template::Error (Error: File to import not found or unreadable: boot
     10:     <%= stylesheet_link_tag 'style', media: 'all', 'data-turbolinks-track': 'reload' %>
     11:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     12:
+```
 
 ## use
 - yarn add bootstrap@next jquery @popperjs/core
